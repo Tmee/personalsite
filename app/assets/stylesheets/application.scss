@@ -54,3 +54,21 @@
     from {left: 0px;}
     to {left: 300px;}
 }
+
+.fullpage {
+  height:100vh;
+}
+
+.construction-zone {
+  hr{
+    width:35vw
+  }
+}
+
+.top-flash {
+  i{
+    position: absolute;
+    bottom: 0;right: 0;
+    padding-right: 3px;
+  }
+}
