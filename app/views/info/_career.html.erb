@@ -1,11 +1,10 @@
 <hr>
 <div class="career">
   <%=
-      image_tag "tim-photo",
-      size: '200x200',
+      image_tag @pictures[2].file.url(:medium),
       class:'img-circle pull-right',
       'data-toggle' => "tooltip",
-      title: 'Top of Mt. Lincoln',
+      title: 'Mt. Lincoln, CO',
       'data-placement' => "bottom",
       style: 'margin-left: 25px;'
     %>

@@ -1,12 +1,11 @@
 <hr>
 <div class="interests">
   <%=
-      image_tag "drz",
-      size: '200x200',
+      image_tag @pictures[0].file.url(:medium),
       'data-toggle' => "tooltip",
       'data-html' => true,
       'data-title' => '2000 DRZ400e',
-      class:'img-circle pull-left',
+      class:'pull-left',
       style: 'margin-right: 25px;'
     %>
   <h2 class="featurette-heading">Interests

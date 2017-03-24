@@ -1,11 +1,11 @@
 <hr>
 <div class="history">
-  <%= image_tag "philo",
-      size: '200x200',
+  <%=
+      image_tag @pictures[1].file.url(:medium),
       'data-toggle' => "tooltip",
       'data-html' => true,
-      'data-title' => '2000 DRZ400e',
-      class:'img-circle pull-right',
+      'data-title' => 'Mt. Philo, VT',
+      class:'pull-right',
       style: 'margin-right: 25px;'
     %>
   <h2 class="featurette-heading">History

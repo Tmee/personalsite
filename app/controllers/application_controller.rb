@@ -5,8 +5,8 @@ class ApplicationController < ActionController::Base
 
 
   def flash_page
-    # stuff
+    @user = User.first
 
-
+    @pictures = Picture.all
   end
 end
