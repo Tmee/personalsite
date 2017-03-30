@@ -22,4 +22,10 @@ $(document).ready(function(){
 
   console.log("Hi,");
   console.log("What're you looking for?");
+
 });
+
+function doIt() {
+  console.log('%c', style);
+};
+
